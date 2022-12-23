@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #ffffff;
+    list-style: none;
+}
+header{
+    padding: 50px 0px 65px 0px;
+    background-image: url(../img/background_test.svg);
+    background-size: 40px;
+}
+.link_voltar{
+    background-color: #F2893C;
+    padding: 17px 146px 17px 46px;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'inter';
+    transition: 0.5s;
+}
+.link_voltar:hover{
+    padding-left: 60px;
+}
+.section_1{
+    background-image: url(../img/background_test.svg);
+    background-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.box_about_persa{
+    box-shadow: 0px 4px 77px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 200px 200px 200px;
+    width: 1044px;
+}
+.tittle_and_image{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.img_persa{
+    width: 685px;
+}
+.tittle_persa{
+    text-align: center;
+    font-family: 'inter';
+    font-size: 40px;
+    color: #ffffff;
+    background-color: #F2893C;
+    padding: 70px 107px 70px 107px ;
+}
+.p_about_persa{
+    color: #848484;
+    padding: 38px;
+    font-family: 'inter';
+    font-size: 20px;
+}
+.li_dados{
+    font-size: 19px;
+    font-family: 'inter';
+    padding: 20px;
+}
+.li_dados_un{
+    margin-bottom: 10px;
+    padding: 5px;
+}
